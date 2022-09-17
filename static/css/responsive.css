@@ -1,0 +1,104 @@
+
+@media (max-width: 967px) {
+
+    .banner {
+        width:40rem;
+           
+    }
+
+    .banner h1{
+        font-size: 2rem;
+    }
+
+    .answer{
+        width: 39rem;
+        height: 41rem
+    }
+ 
+
+}
+
+@media (max-width: 635px) {
+
+    .banner {
+        width:33rem;
+           
+    }
+
+    .banner h1{
+        font-size: 2rem;
+    }
+
+    .answer{
+        width: 32rem
+    }
+ 
+
+} 
+
+
+@media (max-width: 520px) {
+
+   
+    .banner {
+        width:30rem;
+           
+    }
+
+    .word input{
+        width: 17rem;
+        
+       
+      }
+
+    .answer{
+        width: 29rem;
+        height: 45.5rem;
+    }
+ 
+
+} 
+
+
+@media (max-width: 476px) {
+
+   
+    .banner {
+        width:27.8rem;
+           
+    }
+
+    .word input{
+        width: 17rem;
+        
+       
+      }
+
+    .answer{
+        width: 26.2rem;
+    }
+ 
+
+} 
+
+@media (max-width: 440px) {
+
+   
+    .banner {
+        width:20rem;
+           
+    }
+
+    .word input{
+        width: 17rem;
+        
+       
+      }
+
+    .answer{
+        width: 19.2rem;
+        height: 59rem;
+    }
+ 
+
+} 

@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(71,71,168,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+html,body{
+    overflow-x: hidden;
+    /*overflow-y: hidden;*/
+    
+ }
+
+.header_wrapper .navbar {
+    padding: 0.9375rem 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(to bottom right, rgba(2,0,36,1) 0%, rgba(71,71,168,1) 35%, rgba(0,212,255,1) 100%);  
+}
+
+.header_wrapper .navbar-brand img {
+    max-width: 16rem;
+    height: auto;
+}
+
+/*
+.header_wrapper .nav-item {
+    margin: 0 0.625rem;
+}*/
+
+.header_wrapper .nav-item .nav-link {
+    font-family: var(--primary-font);
+    font-size: 2rem;
+    color: white;
+    display: inline-block;
+}
+
+.navbar-brand{
+    margin-right: 0.1rem;
+}
+
+.banner{
+    /*background-color: black;*/
+    width: 60rem;
+    height: 17.5rem;
+    /*position: absolute;*/
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 9rem;
+}
+
+
+.banner h1{
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4rem;
+}
+.banner a{
+    text-decoration: none;
+}
+.word input{
+  width: 25rem;
+  height: 3rem;
+  border-radius: 4rem;
+  margin: auto;
+  display: block;
+  outline: none;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 1.9rem;
+ 
+}
+
+#search{
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+   
+    margin: auto;
+    display: block;
+    border-radius: 0.3125rem;
+    border: double 0.125rem transparent;
+    transition: all .3s ease-in-out;
+    --webkit-transition: all .3s ease-in-out;
+    margin-top: 2rem;
+}
+
+#search:hover {
+    border-color: darkgreen;
+    background: green;
+    color: white;
+    box-shadow: none;
+}
+
+.answer{
+    /*background-color: aqua;*/
+    /* margin-top: 1rem; */
+    width: 55rem;
+    height: 26rem;
+    /* left: 6rem; */
+    position: relative;
+    margin: 0 auto;
+    /* margin-top: 5rem; */
+    text-align: center;
+
+}
+
+.answer p{
+    font-size: 1.33rem;
+    color: white;
+}

@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="banner">
+    <h1>Enter your word here</h1>
+        <form method="POST" action="/search/"> 
+        {% csrf_token %}
+            <div class="word">
+                <input type="text" name="word" placeholder="Type word....">
+            </div>
+            <button id="search"> Search </button> <!-- <button id="search"> Search </button> -->
+        </form>
+</div>
+
+{% endblock body %}   
