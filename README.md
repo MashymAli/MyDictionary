@@ -13,7 +13,7 @@ Online Dictionary which will provide definition, synonyms and, antonyms of any g
 * You should have your own API key for oxford dictionary.
 * Go through requirements.txt file to see all the modules used in this project.
 
-# Running on your system
+## Running on your system
 * Download all modules used in this project.
 * Clone this repo on your local system.
 * Create .env file and, add your SECRET_KEY and APP_ID of API there.
