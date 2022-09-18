@@ -20,7 +20,7 @@ Online Dictionary which will provide definition, synonyms and, antonyms of any g
 
 ## Deployed Link
 Click here 👇 </br> 
-https://mydictionary.mashymali.repl.co/
+https://bit.ly/3RUpUnE
 
 ## Screenshots
 ![1](https://user-images.githubusercontent.com/87118384/190902584-ea3f0344-6500-4751-8194-9b917d8a16db.PNG)
